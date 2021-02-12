@@ -1,0 +1,48 @@
+body {
+    background: var(--color-primary);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body img {
+    max-width: 100%;
+}
+
+.words p {
+    font: 700 6rem Archivo;
+    color: var(--color-title-in-primary);
+}
+
+.words p strong {
+    font-weight: normal;
+    margin-top: 2rem;
+
+    font: 100 1.8rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#button {
+    width: 25rem;
+    height: 7.4rem;
+
+    border-radius: 0.8rem;
+    margin-top: 1.6rem;
+    margin-left: 10rem;
+
+    font: 700 2.4rem Archivo;
+
+    display: flex;
+    align-items: center;/*alinha com o centro vertical*/
+    justify-content: center;/*alinha com o centro horizontal*/
+
+    text-decoration: none; /*tira o sublinhado do link externo*/
+
+    transition: background 0.2s;
+    cursor: pointer;
+
+    background-color: var(--color-secondary);
+    color: var(--color-button-text);
+}
